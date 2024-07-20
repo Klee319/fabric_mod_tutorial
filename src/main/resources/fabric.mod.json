@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "tutorial",
+  "version": "${version}",
+  "name": "tutorial",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/T-319/untitled"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/tutorial/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.klee.tutorial.client.TutorialClient"
+    ],
+    "main": [
+      "com.github.klee.tutorial.Tutorial"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

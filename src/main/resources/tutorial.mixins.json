@@ -3,11 +3,14 @@
   "compatibilityLevel": "JAVA_17",
   "package": "com.github.klee.tutorial.mixin",
   "mixins": [
+    "BlockMixin",
+    "MinecraftServerMixin",
     "PlayerEntityMixin"
   ],
   "server": [
   ],
   "client": [
+    "CMixin"
   ],
   "injectors": {
     "defaultRequire": 1

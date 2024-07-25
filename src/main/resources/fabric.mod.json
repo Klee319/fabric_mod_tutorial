@@ -19,6 +19,9 @@
       "com.github.klee.tutorial.Tutorial"
     ]
   },
+  "mixins": [
+      "tutorial.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
